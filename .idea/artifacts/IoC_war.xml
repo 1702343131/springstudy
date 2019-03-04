@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="IoC:war">
+    <output-path>$PROJECT_DIR$/IoC/target</output-path>
+    <root id="archive" name="IoC-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="IoC:war exploded" />
+    </root>
+  </artifact>
+</component>
