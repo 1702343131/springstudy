@@ -33,7 +33,7 @@ public interface UserService {
      * @param user
      * @return
      */
-    int updateUser(User user);
+     int updateUser(User user);
 
     /**
      * 查询所有用户

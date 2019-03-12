@@ -16,7 +16,7 @@ import java.util.List;
 @Service
 //在service层启动事务
 @Transactional
-public class UserServiceImpl implements UserService {
+    public class UserServiceImpl implements UserService {
   @Autowired
   private UserDAO userDao;
 

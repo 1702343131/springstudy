@@ -4,7 +4,7 @@ import com.spring.orm.entity.User;
 
 /**
  * Created by 张文旭 on 2019/3/11.
- * UserDAO,继承通用DAO接口基础的CRUD功能
+ * UserDAO,继承通用DAO接口基础的CRUD（增删改查）功能
  */
 public interface UserDAO extends BaseDAO<User> {
 }
