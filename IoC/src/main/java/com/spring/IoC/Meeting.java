@@ -8,12 +8,12 @@ import java.util.List;
  * Created by 张文旭 on 2019/3/4.
  */
 public class Meeting {
-    private  String theme;
-    private List<Boss> bosses;
+   private String theme;
+   private List<Boss> bosses;
+   public Meeting(){
 
-    public Meeting(){
+   }
 
-    }
     public Meeting(String theme, List<Boss> bosses) {
         this.theme = theme;
         this.bosses = bosses;
@@ -40,6 +40,6 @@ public class Meeting {
         return "Meeting{" +
                 "theme='" + theme + '\'' +
                 ", bosses=" + bosses +
-                '}' ;
+                '}';
     }
 }

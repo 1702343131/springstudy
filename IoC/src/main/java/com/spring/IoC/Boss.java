@@ -9,17 +9,19 @@ import java.util.List;
  * Created by 张文旭 on 2019/3/4.
  */
 public class Boss {
-    private  String name;
-    private String company;
-    private  Car car;
-    private List<String> hobby ;
+   private String name;
+   private Car car;
+   private  String company;
+   private  List<String> hobbies;
+   public Boss(){
 
-    public Boss(){}
-    public Boss(String name, String company, Car car, List<String> hobby) {
+   }
+
+    public Boss(String name, Car car, String company, List<String> hobbies) {
         this.name = name;
-        this.company = company;
         this.car = car;
-        this.hobby = hobby;
+        this.company = company;
+        this.hobbies = hobbies;
     }
 
     public String getName() {
@@ -30,14 +32,6 @@ public class Boss {
         this.name = name;
     }
 
-    public String getCompany() {
-        return company;
-    }
-
-    public void setCompany(String company) {
-        this.company = company;
-    }
-
     public Car getCar() {
         return car;
     }
@@ -46,21 +40,29 @@ public class Boss {
         this.car = car;
     }
 
-    public List<String> getHobby() {
-        return hobby;
+    public String getCompany() {
+        return company;
     }
 
-    public void setHobby(List<String> hobby) {
-        this.hobby = hobby;
+    public void setCompany(String company) {
+        this.company = company;
+    }
+
+    public List<String> getHobbies() {
+        return hobbies;
+    }
+
+    public void setHobbies(List<String> hobbies) {
+        this.hobbies = hobbies;
     }
 
     @Override
     public String toString() {
         return "Boss{" +
                 "name='" + name + '\'' +
-                ", company='" + company + '\'' +
                 ", car=" + car +
-                ", hobby=" + hobby +
+                ", company='" + company + '\'' +
+                ", hobbies=" + hobbies +
                 '}';
     }
 }

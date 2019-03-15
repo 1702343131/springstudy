@@ -4,13 +4,13 @@ package com.spring.IoC;
  * Created by 张文旭 on 2019/3/4.
  */
 public class Car {
-    private String brand;
-    private String color;
-    private  String parameter;
+   private String brand;
+   private String color;
+   private String parameter;
+   public Car(){
 
-    public Car(){
+   }
 
-    }
     public Car(String brand, String color, String parameter) {
         this.brand = brand;
         this.color = color;

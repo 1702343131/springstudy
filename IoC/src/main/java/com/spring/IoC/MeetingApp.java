@@ -1,5 +1,6 @@
 package com.spring.IoC;
 
+import jdk.nashorn.internal.runtime.regexp.joni.ast.CClassNode;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -8,7 +9,7 @@ import javax.swing.*;
 /**
  * Created by 张文旭 on 2019/3/4.
  */
-public class App {
+public class MeetingApp {
     public static void main(String[] args) {
 //        @SuppressWarnings("resource")
 //        ApplicationContext context = new
