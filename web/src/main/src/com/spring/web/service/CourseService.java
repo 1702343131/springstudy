@@ -1,6 +1,5 @@
 package com.spring.web.service;
 
-import com.spring.web.entity.Course;
 import com.spring.web.entity.CourseVO;
 
 import java.util.List;
@@ -10,4 +9,6 @@ import java.util.List;
  */
 public interface CourseService {
     List<CourseVO> selectCurrentCourses();
+    List<CourseVO> selectFinishedCourses();
+
 }

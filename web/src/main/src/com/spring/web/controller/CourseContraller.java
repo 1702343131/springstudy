@@ -21,6 +21,12 @@ public class CourseContraller{
          List<CourseVO> courseVOList = courseService.selectCurrentCourses();
          return courseVOList;
      }
+     @RequestMapping(value = "courses1", method = RequestMethod.GET)
+    public List<CourseVO> selectCourses1(){
+         List<CourseVO> courseVOList = courseService.selectFinishedCourses();
+         return  courseVOList;
+
+     }
 
 
 }
